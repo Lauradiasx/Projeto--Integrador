@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>Formulario Cadastro</title>
+</head>
+<body>
+    <div>
+    <h1 id= "titulo"> Cadastro Entregador </h1>
+     <p id="subtitulo">Complete Suas Informacoes</p>
+      <br>
+    </div>
+      
+        <form>
+        <fieldset class = "check">
+          <div class="check">
+              <label><strong>Nome:</strong></label>
+                <input type="text" name= "nome" required>
+            </div>
+            <div class = "campo">
+                <label><strong>sobrenome:</strong></label>
+                <input type="text"  nome ="sobrenome" id="sobrenome"required>
+            </div>
+           <div> 
+               <label><strong>Email:</strong></label>
+               <input type="email " name = "email" id="email" required>
+            
+            </div>
+           <div class="check">  
+               Qual correios voce trabalha?
+               <label class="check">
+                   <input type="radio" nome ="Garanhuns" volue= "Garanhuns">Garanhuns ECT
+                 </label>
+                 <label>
+                    <label>
+                        <input type="radio" name="Garanhuns " value="Garanhuns"> Garanhuns CDD
+                    </label>
+                    <label>
+                        <input type="radio" name="Garanhuns" value="garanhuns"> Correios Garanhuns
+                    </label>
+                 
+            </div>
+            <fieldset>
+              <div id="check">
+                    <label><strong>Selecione o nivel de sua funcionalidade:</strong></label><br><br>
+                    <input type="checkbox" id="Jovem aprendiz" name="Jovem aprendiz" value="HTML">
+                    <label for="Jovem aprendiz">Jovem aprendiz</label>
+                    <input type="checkbox" id="Motorista" name="Motorista" value="Motorista">
+                    <label for="funcao2">Motorista</label>
+                    <input type="checkbox" id="Funcionario" name="Funcionario" value="Funcionario">
+                    <label for="funcao3">Entregador/Carteiro </label>
+                    <input type="checkbox" id="" name="Auxiliar administrativo" value="Auxiliar administrativo">
+                    <label for="">Auxiliar administrativo</label>
+         </fieldset>
+         <div>
+            <div class="campo">
+
+            </div>
+         <button class="botao" type="submit" onsubmit="">Concluído</button>            
+         </div>
+
+
+        </html>
+  </form>
+ </body>
+</html>
